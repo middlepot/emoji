@@ -113,6 +113,21 @@ z-index: 2;
 #base { zoom: 210%; left:-20px; top: 50px; overflow: auto; overflow: scroll; }
 }
 
+@media screen and (min-width: 1700px) and (orientation: landscape){
+#base { position: absolute; zoom: 130%;
+	left:400px;
+	top:30px; }
+}
+@media screen and (min-width: 2000px) and (orientation: landscape){
+#base { position: absolute; zoom: 100%;}
+}
+@media screen and (min-width: 3000px) and (orientation: landscape){
+#base { position: absolute; zoom: 270%;
+	left:400px;
+	top:30px; }
+body { background-size: cover; }
+}
+
 @media screen and (max-width: 1000px) and (orientation: landscape){
 #base { zoom: 100%; left:180px; top: 10px; overflow: auto; overflow: scroll; }
 }
